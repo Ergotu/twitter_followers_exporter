@@ -60,7 +60,7 @@ func init() {
 
 func main() {
 	var (
-		screenName  = flag.String("twitter.screenname", "intigriti", "ScreenName used to track followers")
+		screenName  = flag.String("twitter.screenname", "ergotu", "ScreenName used to track followers")
 		addr        = flag.String("listen-address", ":8080", "The address to listen on for HTTP requests.")
 		metricsPath = flag.String("web.telemetry-path", "/metrics", "Path under which to expose metrics.")
 	)
